@@ -8,12 +8,12 @@ class Pet:
     def grow(self, age):
         self.age += age
 
-anton = Pet("Musya", 6, "Cat", "happy")
+barsyk = Pet("Barsyk", 6, "Cat", "happy")
 
-print("Name: ", anton.name)
-print("Age: ", anton.age)
-print("Kind: ", anton.kind)
-print("Mood: ", anton.mood)
+print("Name: ", barsyk.name)
+print("Age: ", barsyk.age)
+print("Kind: ", barsyk.kind)
+print("Mood: ", barsyk.mood)
 
-musya.grow(age=5)
-print(musya.age)
+barsyk.grow(age=5)
+print(barsyk.age)
